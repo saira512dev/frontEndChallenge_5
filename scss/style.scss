@@ -122,7 +122,7 @@ footer {
 
 @media (min-width: 768px) {
   .container {
-    background: $violet url("/images/bg-desktop.svg") no-repeat;
+    background: $violet url("/images/bg-desktop.svg");
   }
 
   main {

@@ -116,7 +116,7 @@ footer .fa-brands:hover {
 
 @media (min-width: 768px) {
   .container {
-    background: #674baf url("/images/bg-desktop.svg") no-repeat;
+    background: #674baf url("/images/bg-desktop.svg");
   }
 
   main {
