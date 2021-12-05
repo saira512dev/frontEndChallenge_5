@@ -170,5 +170,34 @@ footer .fa-brands:hover {
     margin-bottom: 10px;
   }
 }
+@media (min-width: 1200px) {
+  .container {
+    background: #674baf url("/images/bg-desktop.svg");
+    justify-content: flex-start;
+  }
+
+  main {
+    width: 850px;
+    margin: 150px 0 30px 250px;
+  }
+
+  .content {
+    flex-direction: row;
+    margin-bottom: 10px;
+  }
+  .content .image-container {
+    flex: 4;
+    height: 360px;
+    margin: 0 10px 0px 0px;
+  }
+  .content section {
+    flex: 2;
+  }
+  .content section h1 {
+    font-size: 20px;
+    margin: 0 10px 15px 0;
+    text-align: left;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */

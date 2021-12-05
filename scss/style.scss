@@ -183,3 +183,38 @@ footer {
     margin-bottom: 10px;
   }
 }
+
+@media (min-width: 1200px) {
+  .container {
+    background: $violet url("/images/bg-desktop.svg");
+    justify-content: flex-start;
+  }
+
+  main {
+    width: 850px;
+    margin: 150px 0 30px 250px;
+    // background: red;
+  }
+
+  .content {
+    flex-direction: row;
+    margin-bottom: 10px;
+
+    .image-container {
+      flex: 4;
+
+      height: 360px;
+      margin: 0 10px 0px 0px;
+    }
+
+    section {
+      flex: 2;
+
+      h1 {
+        font-size: 20px;
+        margin: 0 10px 15px 0;
+        text-align: left;
+      }
+    }
+  }
+}
