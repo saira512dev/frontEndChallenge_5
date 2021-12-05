@@ -13,7 +13,7 @@ body {
 }
 
 .container {
-  background: #674baf url("/images/bg-mobile.svg") no-repeat center/cover;
+  background: #674baf url("/images/bg-mobile.svg") no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -22,7 +22,7 @@ body {
 
 main {
   margin: 10px 10px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   display: flex;
   flex-direction: column;
   width: 290px;
@@ -32,9 +32,9 @@ main {
   position: relative;
   top: 0;
   left: 0;
-  width: 100px;
-  height: 50px;
-  margin: 20px 0;
+  width: 120px;
+  height: 60px;
+  margin: 10px 0 30px 0;
 }
 .logo img {
   max-width: 100%;
@@ -50,10 +50,10 @@ main {
   top: 0;
   left: 0;
   width: 100%;
-  height: 200px;
+  height: 250px;
 }
 .content .image-container img {
-  max-width: 90%;
+  max-width: 100%;
 }
 .content section {
   margin: 20px 0;
@@ -116,7 +116,7 @@ footer .fa-brands:hover {
 
 @media (min-width: 768px) {
   .container {
-    background: #674baf url("/images/bg-desktop.svg") no-repeat center/cover;
+    background: #674baf url("/images/bg-desktop.svg") no-repeat;
   }
 
   main {
