@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/saira512dev/frontEndChallenge_5)
-- Live Site URL: [Add live site URL here](https://nervous-joliot-888123.netlify.app/)
+- Solution URL: (https://github.com/saira512dev/frontEndChallenge_5)
+- Live Site URL: (https://nervous-joliot-888123.netlify.app/)
 
 ## My process
 
