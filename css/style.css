@@ -5,28 +5,24 @@
 *::after {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
 body {
-  font-family: "Open Sans", sans-serif;
-}
+  font-family: "Open Sans", sans-serif; }
 
 .container {
-  background: #674baf url("/images/bg-mobile.svg") no-repeat;
+  background: #674baf url("/images/bg-mobile.svg") no-repeat center/cover;
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
-}
+  min-height: 100vh; }
 
 main {
   margin: 10px 10px;
   margin-bottom: 40px;
   display: flex;
   flex-direction: column;
-  width: 290px;
-}
+  width: 290px; }
 
 .logo {
   position: relative;
@@ -34,61 +30,51 @@ main {
   left: 0;
   width: 120px;
   height: 60px;
-  margin: 10px 0 30px 0;
-}
-.logo img {
-  max-width: 100%;
-}
+  margin: 10px 0 30px 0; }
+  .logo img {
+    max-width: 100%; }
 
 .content {
   display: flex;
   flex-direction: column;
-  margin-bottom: 20px;
-}
-.content .image-container {
-  position: relative;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 250px;
-}
-.content .image-container img {
-  max-width: 100%;
-}
-.content section {
-  margin: 20px 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-}
-.content section h1 {
-  margin-bottom: 30px;
-  color: white;
-  font-size: 18px;
-  margin: 0 30px;
-  line-height: 1.4;
-  font-family: "Poppins", sans-serif;
-}
-.content section p {
-  color: white;
-  margin: 10px 5px;
-  line-height: 1.3;
-  font-size: 15px;
-  text-align: center;
-}
-.content section button {
-  width: 170px;
-  height: 35px;
-  margin-top: 10px;
-  border-radius: 20px 20px 20px 20px;
-  border: none;
-}
-.content section button:hover {
-  background: #e882e8;
-  color: white;
-  box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.5);
-}
+  margin-bottom: 20px; }
+  .content .image-container {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 250px; }
+    .content .image-container img {
+      max-width: 100%; }
+  .content section {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; }
+    .content section h1 {
+      margin-bottom: 30px;
+      color: white;
+      font-size: 18px;
+      margin: 0 30px;
+      line-height: 1.4;
+      font-family: "Poppins", sans-serif; }
+    .content section p {
+      color: white;
+      margin: 10px 5px;
+      line-height: 1.3;
+      font-size: 15px;
+      text-align: center; }
+    .content section button {
+      width: 170px;
+      height: 35px;
+      margin-top: 10px;
+      border-radius: 20px 20px 20px 20px;
+      border: none; }
+      .content section button:hover {
+        background: #e882e8;
+        color: white;
+        box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.5); }
 
 footer {
   position: relative;
@@ -99,105 +85,94 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 20px;
-}
-footer .fa-brands {
-  border: 1px solid white;
-  margin: 5px;
-  border-radius: 50%;
-  background: #674baf light;
-  color: white;
-  padding: 7px;
-}
-footer .fa-brands:hover {
-  color: #e882e8;
-  border: 1px solid #e882e8;
-}
+  margin-top: 20px; }
+  footer .fa-brands {
+    border: 1px solid white;
+    margin: 5px;
+    border-radius: 50%;
+    background: #674baf light;
+    color: white;
+    padding: 7px; }
+    footer .fa-brands:hover {
+      color: #e882e8;
+      border: 1px solid #e882e8; }
 
 @media (min-width: 768px) {
   .container {
-    background: #674baf url("/images/bg-desktop.svg");
-  }
+    background: #674baf url("/images/bg-desktop.svg") no-repeat; }
 
   main {
     width: 670px;
-    margin: 10px;
-  }
+    margin: 10px; }
 
   .logo {
     width: 160px;
-    height: 60px;
-  }
+    height: 60px; }
 
   .content {
     flex-direction: row;
-    margin-bottom: 10px;
-  }
-  .content .image-container {
-    flex: 3;
-    height: 300px;
-    margin: 0 10px 0px 0px;
-  }
-  .content .image-container img {
-    max-width: 100%;
-  }
-  .content section {
-    flex: 2;
-    align-items: flex-start;
-    justify-content: flex-start;
-    margin: 10px 0px 10px 10px;
-  }
-  .content section h1 {
-    font-size: 19px;
-    margin: 0 10px 15px 0;
-    text-align: left;
-  }
-  .content section p {
-    margin: 0px 0px 0px 0;
-    font-size: 9px;
-    text-align: left;
-  }
-  .content section button {
-    width: 100px;
-    height: 28px;
-    font-size: 12px;
-    margin-top: 15px;
-  }
+    margin-bottom: 10px; }
+    .content .image-container {
+      flex: 3;
+      height: 300px;
+      margin: 0 10px 0px 0px; }
+      .content .image-container img {
+        max-width: 100%; }
+    .content section {
+      flex: 2;
+      align-items: flex-start;
+      justify-content: flex-start;
+      margin: 10px 0px 10px 10px; }
+      .content section h1 {
+        font-size: 19px;
+        margin: 0 10px 15px 0;
+        text-align: left; }
+      .content section p {
+        margin: 0px 0px 0px 0;
+        font-size: 9px;
+        text-align: left; }
+      .content section button {
+        width: 100px;
+        height: 28px;
+        font-size: 12px;
+        margin-top: 15px; }
 
   footer {
     justify-content: flex-end;
     margin-top: 0px;
-    margin-bottom: 10px;
-  }
-}
+    margin-bottom: 10px; } }
 @media (min-width: 1200px) {
   .container {
-    background: #674baf url("/images/bg-desktop.svg");
-    justify-content: flex-start;
-  }
+    background: #674baf url("/images/bg-desktop.svg") no-repeat center/cover;
+    justify-content: center; }
 
   main {
-    width: 850px;
-    margin: 150px 0 30px 250px;
-  }
+    min-width: 90vw;
+    margin: 100px 0 30px 120px; }
+
+  .logo {
+    margin: 10px 0 50px 0; }
 
   .content {
     flex-direction: row;
-    margin-bottom: 10px;
-  }
-  .content .image-container {
-    flex: 4;
-    height: 360px;
-    margin: 0 10px 0px 0px;
-  }
-  .content section {
-    flex: 2;
-  }
-  .content section h1 {
-    font-size: 20px;
-    margin: 0 10px 15px 0;
-    text-align: left;
-  }
-}
+    margin-bottom: 10px; }
+    .content .image-container {
+      flex: 3;
+      height: 500px;
+      margin: 0 10px 0px 0px; }
+    .content section {
+      flex: 2; }
+      .content section h1 {
+        font-size: 28px;
+        margin: 0 150px 15px 0;
+        text-align: left; }
+      .content section p {
+        margin: 0px 50px 0px 0;
+        font-size: 16px;
+        text-align: left; }
+
+  footer {
+    margin-top: 100px;
+    margin-bottom: 10px; } }
 
 /*# sourceMappingURL=style.css.map */

@@ -7,7 +7,7 @@ body {
 }
 
 .container {
-  background: $violet url("/images/bg-mobile.svg") no-repeat;
+  background: $violet url("/images/bg-mobile.svg") no-repeat center/cover;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -122,7 +122,7 @@ footer {
 
 @media (min-width: 768px) {
   .container {
-    background: $violet url("/images/bg-desktop.svg");
+    background: $violet url("/images/bg-desktop.svg") no-repeat;
   }
 
   main {
@@ -186,14 +186,19 @@ footer {
 
 @media (min-width: 1200px) {
   .container {
-    background: $violet url("/images/bg-desktop.svg");
-    justify-content: flex-start;
+    background: $violet url("/images/bg-desktop.svg") no-repeat center/cover ;
+    justify-content: center;
+    // background-position: center ;
   }
 
   main {
-    width: 850px;
-    margin: 150px 0 30px 250px;
+    min-width: 90vw;
+    margin: 100px 0 30px 120px;
     // background: red;
+  }
+
+  .logo {
+    margin: 10px 0 50px 0;
   }
 
   .content {
@@ -201,9 +206,9 @@ footer {
     margin-bottom: 10px;
 
     .image-container {
-      flex: 4;
+      flex: 3;
 
-      height: 360px;
+      height: 500px;
       margin: 0 10px 0px 0px;
     }
 
@@ -211,10 +216,21 @@ footer {
       flex: 2;
 
       h1 {
-        font-size: 20px;
-        margin: 0 10px 15px 0;
+        font-size: 28px;
+        margin: 0 150px 15px 0;
+        text-align: left;
+      }
+
+
+      p {
+        margin: 0px 50px 0px 0;
+        font-size: 16px;
         text-align: left;
       }
     }
+  }
+  footer {
+    margin-top: 100px;
+    margin-bottom: 10px;
   }
 }
