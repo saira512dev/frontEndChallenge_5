@@ -147,8 +147,8 @@ footer {
     justify-content: center; }
 
   main {
-    min-width: 90vw;
-    margin: 100px 0 30px 120px; }
+    min-width: 80vw;
+    margin: 100px 20px 30px 100px; }
 
   .logo {
     margin: 10px 0 50px 0; }
@@ -164,15 +164,19 @@ footer {
       flex: 2; }
       .content section h1 {
         font-size: 28px;
-        margin: 0 150px 15px 0;
+        margin: 0 130px 15px 0;
         text-align: left; }
       .content section p {
-        margin: 0px 50px 0px 0;
+        margin: 0px 0px 0px 0;
         font-size: 16px;
         text-align: left; }
+      .content section button {
+        width: 140px;
+        height: 40px;
+        font-size: 15px;
+        margin-top: 15px; }
 
   footer {
-    margin-top: 100px;
-    margin-bottom: 10px; } }
+    margin: 100px 50px 10px 0px; } }
 
 /*# sourceMappingURL=style.css.map */

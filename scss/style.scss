@@ -188,12 +188,11 @@ footer {
   .container {
     background: $violet url("/images/bg-desktop.svg") no-repeat center/cover ;
     justify-content: center;
-    // background-position: center ;
   }
 
   main {
-    min-width: 90vw;
-    margin: 100px 0 30px 120px;
+    min-width: 80vw;
+    margin: 100px 20px 30px 100px;
     // background: red;
   }
 
@@ -217,20 +216,27 @@ footer {
 
       h1 {
         font-size: 28px;
-        margin: 0 150px 15px 0;
+        margin: 0 130px 15px 0;
         text-align: left;
       }
 
 
       p {
-        margin: 0px 50px 0px 0;
+        margin: 0px 0px 0px 0;
         font-size: 16px;
         text-align: left;
+      }
+
+      button {
+        width: 140px;
+        height: 40px;
+        font-size: 15px;
+        margin-top: 15px;
       }
     }
   }
   footer {
-    margin-top: 100px;
-    margin-bottom: 10px;
+    margin: 100px 50px 10px 0px;
+    // justify-content:center;
   }
 }
